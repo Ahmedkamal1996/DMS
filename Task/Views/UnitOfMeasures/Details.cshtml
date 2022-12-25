@@ -1,0 +1,33 @@
+﻿@model DMSTask.BLL.ViewModel.UnitOfMeasureVM
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>UnitOfMeasure</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UOM)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UOM)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" class="btn btn-primary ED" style="margin-top:3px" asp-route-id="@Model.Id">Edit</a> 
+    <br />
+    <br />
+    <br />
+    <a asp-action="Index" class="btn btn-success ED" style="margin-top:3px">Back to List</a>
+</div>

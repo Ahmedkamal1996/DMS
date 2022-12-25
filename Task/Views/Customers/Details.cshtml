@@ -1,0 +1,32 @@
+﻿@model DMSTask.BLL.ViewModel.CustomerVM
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Customer</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CustomerDescriptionEn)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CustomerDescriptionEn)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CustomerDescriptionAr)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CustomerDescriptionAr)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.CustomerCode" class="btn btn-primary ED" style="margin-top:3px"> Edit</a>
+   
+    <br />
+    <a asp-action="Index" class="btn btn-success ED" style="margin-top:3px">>Back to List</a>
+</div>

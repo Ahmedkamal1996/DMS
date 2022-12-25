@@ -1,0 +1,55 @@
+﻿@model IEnumerable<DMSTask.DAL.Models.UnitOfMeasure>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Unit Of Measures</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary ED" style="margin-top:3px">Create New</a>
+</p>
+
+<form asp-controller="UnitOfMeasures" asp-action="Index" method="get">
+    <p>
+        Search: <input type="text" name="filter" value="@(ViewData["Filter"])" />
+        <input type="submit" value="Search" class="btn btn-primary" />
+    </p>
+</form>
+
+<table class="table stripe row-border order-column table table-striped jambo_table bulk-action table-bordered table-sm table-hover before-table" style="text-align: center;">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UOM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>Edit</th>
+            <th>Details</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UOM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary ED" style="margin-top:3px">Edit</a>
+            </td>  
+            <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info ED" style="margin-top:3px">Details</a>
+            </td>  
+            <td>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger ED" style="margin-top:3px">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

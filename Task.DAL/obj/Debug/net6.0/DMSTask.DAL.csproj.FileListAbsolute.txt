@@ -1,0 +1,12 @@
+C:\Users\A H M E D\Desktop\DMSTask\Task\Task.DAL\bin\Debug\net6.0\DMSTask.DAL.deps.json
+C:\Users\A H M E D\Desktop\DMSTask\Task\Task.DAL\bin\Debug\net6.0\DMSTask.DAL.dll
+C:\Users\A H M E D\Desktop\DMSTask\Task\Task.DAL\bin\Debug\net6.0\DMSTask.DAL.pdb
+C:\Users\A H M E D\Desktop\DMSTask\Task\Task.DAL\obj\Debug\net6.0\DMSTask.DAL.csproj.AssemblyReference.cache
+C:\Users\A H M E D\Desktop\DMSTask\Task\Task.DAL\obj\Debug\net6.0\DMSTask.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A H M E D\Desktop\DMSTask\Task\Task.DAL\obj\Debug\net6.0\DMSTask.DAL.AssemblyInfoInputs.cache
+C:\Users\A H M E D\Desktop\DMSTask\Task\Task.DAL\obj\Debug\net6.0\DMSTask.DAL.AssemblyInfo.cs
+C:\Users\A H M E D\Desktop\DMSTask\Task\Task.DAL\obj\Debug\net6.0\DMSTask.DAL.csproj.CoreCompileInputs.cache
+C:\Users\A H M E D\Desktop\DMSTask\Task\Task.DAL\obj\Debug\net6.0\DMSTask.DAL.dll
+C:\Users\A H M E D\Desktop\DMSTask\Task\Task.DAL\obj\Debug\net6.0\refint\DMSTask.DAL.dll
+C:\Users\A H M E D\Desktop\DMSTask\Task\Task.DAL\obj\Debug\net6.0\DMSTask.DAL.pdb
+C:\Users\A H M E D\Desktop\DMSTask\Task\Task.DAL\obj\Debug\net6.0\ref\DMSTask.DAL.dll
